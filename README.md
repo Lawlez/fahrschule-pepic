@@ -7,4 +7,4 @@ Contributors: hpepic & lawlez
 
 MEGA OP Website Projekt :O
 
-FANCY PROJEKT COMING SOON
+FANCY PROJECT COMING SOON
