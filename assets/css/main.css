@@ -620,3 +620,41 @@ input[type="submit"] {
     box-shadow: 0px 0px 0px 1px #dbdbdb;
     text-shadow: 0px 1px #d72d05;
 }
+/* Tooltips */
+
+.new-tooltip{
+    display: inline;
+    position: relative;
+}
+.new-tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.6);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 0%;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 98;
+    width:auto;!important
+    box-shadow: 2px 2px 4px #000;
+}
+.new-tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 5%;
+    position: absolute;
+    z-index: 99;
+}
+.new-tooltip.small:hover:after{
+    width:auto;!important
+    font-size:18pt;
+    left:20%;
+}
+.new-tooltip.small:hover:before{
+    left:50%;
+}
