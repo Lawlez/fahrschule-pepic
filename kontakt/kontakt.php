@@ -205,7 +205,7 @@ exit;
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li> <a href="../home.html">Home</a></li>
+            <li> <a href="../index.html">Home</a></li>
 			<li> <a href="../fahrlehrer/fahrlehrer.html"> Fahrlehrer</a></li>
 			<li> <a href="../fahrstunden/fahrstunden.html"> Fahrstunden</a></li>
 			<li> <a href="../fahrzeuge/fahrzeuge.html"> Fahrzeuge</a></li>
