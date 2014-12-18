@@ -4,7 +4,7 @@ CHDIR_SHELL := $(SHELL)
 ##### v1.1.0
 
 ##### VARIABLES
-NAME = autofaszination
+NAME = fsps
 PORT = 8000
 SOURCE = live
 
